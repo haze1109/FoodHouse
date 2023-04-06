@@ -54,7 +54,8 @@
 }
 
 .social-icons {
-  margin-top: 10px; /* Add margin between icons and heading */
+  margin-top: 3px;
+  padding-left: 8px;
 }
 
 .social-icons a {
