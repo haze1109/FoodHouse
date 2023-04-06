@@ -19,12 +19,6 @@
   margin-top: 0;
 }
 
-.hero {
-  grid-template-columns: auto;
-}
-.image {
-  width: 100%;
-}
 
 .menu {
   justify-content: center;
@@ -49,3 +43,54 @@
 .menu-img {
   background-color: #fdf3d8;
 }
+
+.socials {
+  display: flex; /* Display icons in a row */
+  justify-content: center; /* Center align icons horizontally */
+}
+
+.social-icons {
+  margin-top: 10px; /* Add margin between icons and heading */
+}
+
+.social-icons a {
+  margin-right: 10px; /* Add margin between icons */
+}
+
+.social-icons a:last-child {
+  margin-right: 0; /* Remove margin from last icon */
+}
+
+
+.pt-0,
+.mt-0,
+.mb-0,
+.pb-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.hero-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.wave-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.hero {
+  position: relative;
+  z-index: 2;
+}
+
+.image {
+  max-width: 100%;
+}
+
