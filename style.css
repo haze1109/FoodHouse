@@ -22,3 +22,8 @@
   width: 100%;
 }
 
+.menu {
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 auto;
+}
