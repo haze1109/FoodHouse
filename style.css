@@ -1,3 +1,7 @@
+* {
+  font-family: 'Poiret One', 'Montserrat';
+}
+
 .navbar-brand img{
   width: 80px;
 }
@@ -28,8 +32,20 @@
   padding: 0 auto;
 }
 
+.card {
+  border: 1px solid #000;
+}
+
+.card:not(:has(*[style*="background-color"])) {
+  border: none; /* Remove border for cards without background color */
+}
+
 .card-body{
-  border-top-left-radius: 40px; 
-  border-top-right-radius: 40px;
-  background-color: #889f34;
+  border-top-left-radius: 30px; 
+  border-top-right-radius: 30px;
+  background-color: #cedbeb;
+}
+
+.menu-img {
+  background-color: #fdf3d8;
 }
