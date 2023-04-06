@@ -40,6 +40,10 @@
   background-color: #cedbeb;
 }
 
+.menu:hover .menu-img{
+  background-color: #e2fbc4;
+}
+
 .menu-img {
   background-color: #fdf3d8;
 }
